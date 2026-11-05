@@ -20,6 +20,9 @@ void pusharr(Dyn_Arr *array, int ind, int val) {
     int *temp = realloc(array->array, new_elem * sizeof(int));
     array->array = temp;
     array->size = new_elem;
+    for (int i = elem; i < eind; i++) {
+      array->array[i] = 0;
+    }
     array->array[ind] = val;
   }
 }
