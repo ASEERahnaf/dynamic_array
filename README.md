@@ -1,6 +1,13 @@
-Its a C library for Dynamic Array Allocation. 
+# Simple Dynamic Array Library in C
 
-Usage: 
-Paste this in you project directory. Then, include `"dynarr_lib.h"` in your main file. 
+A lightweight, fun implementation of dynamic array allocation in C. 
 
-N.B. : Don't expect too much. I just did it for fun. I didn't add null pointers checkers yet. So this can get dangerous.
+> ⚠️ **Disclaimer:** This was built just for fun! It does **not** include null pointer checkers yet, so use it with caution. Improper usage can lead to segmentation faults or undefined behavior.
+
+## Usage
+
+1. Copy `dynarr_lib.h` directly into your project directory.
+2. Include the header file in your main source file:
+
+```c
+#include "dynarr_lib.h"
