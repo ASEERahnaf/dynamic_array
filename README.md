@@ -6,7 +6,7 @@ A lightweight, fun implementation of dynamic array allocation in C.
 
 ## Usage
 
-1. Copy `dynarr_lib.h` directly into your project directory.
+1. Copy `dynarr_lib.h` and `dynarr_lib.c` directly into your project directory.
 2. Include the header file in your main source file:
 
 ```c
